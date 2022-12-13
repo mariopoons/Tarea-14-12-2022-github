@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class Exercise3 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private float upper;
+    private float lower;
+
+
+    private void Update()
     {
-        
+        if(Input.GetMouseButtonDown(0))
+        {
+            RandomNumber(upper, lower);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private float RandomNumber(float up, float low)
     {
-        
+        float result;
+        result = Random.Range(low, up);
+        return result;
     }
+
 }

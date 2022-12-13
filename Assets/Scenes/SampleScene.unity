@@ -195,6 +195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cb6411bd6e3e8a46bb387db53c0d161, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  centimeters: 46
 --- !u!114 &286828391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,6 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a45e5e801f60c6e428fdb4679e74f33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  addingPoints: 5
 --- !u!65 &286828392
 BoxCollider:
   m_ObjectHideFlags: 0

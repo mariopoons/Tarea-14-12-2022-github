@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class Exercise2 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float centimeters;
+    private float inches;
+
+    private void Update()
     {
-        
+        if(Input.GetMouseButtonDown(0))
+        {
+            Conversion(inches, centimeters);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private float Conversion(float inch, float cm)
     {
-        
+        inch = cm / 2.54f;
+        Debug.Log($"The conversion is {inch} inches.");
+        return inch;
+
     }
 }
