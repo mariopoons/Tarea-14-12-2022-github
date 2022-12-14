@@ -171,6 +171,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a86abe1c94765d47bfe6e0332af3655, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  array:
+  - Mosca
+  - Plato
+  - Cerezo
+  - Juan
+  - Soldadito
 --- !u!114 &286828389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,11 +184,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 286828386}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe594e048d5065147919b08e621047bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upper: 0
+  lower: 100
 --- !u!114 &286828390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,7 +198,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 286828386}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5cb6411bd6e3e8a46bb387db53c0d161, type: 3}
   m_Name: 
@@ -203,7 +211,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 286828386}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a45e5e801f60c6e428fdb4679e74f33f, type: 3}
   m_Name: 
